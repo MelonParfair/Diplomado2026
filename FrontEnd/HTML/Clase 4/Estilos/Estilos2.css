@@ -1,0 +1,34 @@
+.fondo-imagen {
+    background-image: url(../Imagen/Curso\ de\ Community\ Manager.jpeg);
+    height: 768px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Cover: redimensionamos la imagen de fondo para que cubra el contenedor por completo. */
+    /* Contain: Permitimos que la imagen se muestre por completo dentro del contenedor */
+    opacity: 1;
+}
+
+#p2 {
+    color: #abff0f;
+}
+
+p {
+    text-indent: 30%;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 0px;
+    word-spacing: 20px;
+    text-transform: capitalize;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.fuente-arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique; /* Posibles estilos: normal | italic | oblique */
+    font-variant: small-caps; /* Convierte el texto en mayúsculas, ocupando el espacio del texto en minúsculas. */
+    font-weight: normal; /* Anchura de los caracteres. Puede ser: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
+    font-size: large; /* Tamaño de la fuente. Posibles valores: xx-small | x-small | small | medium | large | x-large | xx-large | larger | smaller | longitud | porcentaje. */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace para insertar la hoja de estilos -->
+    <link rel="stylesheet" href="../Estilos/2.- columnas_anidadas.css">
+    <!-- Enlace para Bootstrap sin descargar nada en la PC, conexión directa al servidor -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"> <!-- Primer link de Bootstrap, debe ir antes del body. -->
+    <title>Anidamiento de Columnas</title>
+</head>
+<body>
+    <!-- Emmet. div.caja>h4{Clase col-12}+p{La clase col-12 es una de las piezas más impiortantes del sistema de rejilla de Bootstrap. Bootstrap divide horizontalmente la pantalla en 12 columnas imaginarias.}+ol>li{col: Indica que el elemento se comportará como una columna.}+li{12: Indica cuántas de esas 12 columnas disponibles deben ocupar el elemento.}^p>{Al usarla, se le dice al navegador que la columna ocupará todo el ancho disponible.}^^br*2 -->
+    <div class="caja">
+        <h4>Clase col-12</h4>
+        <p>La clase col-12 es una de las piezas más impiortantes del sistema de rejilla de Bootstrap. Bootstrap divide horizontalmente la pantalla en 12 columnas imaginarias.</p>
+        <ol>
+            <li>col: Indica que el elemento se comportará como una columna.</li>
+            <li>12: Indica cuántas de esas 12 columnas disponibles deben ocupar el elemento.</li>
+        </ol>
+        <p>Al usarla, se le dice al navegador que la columna ocupará todo el ancho disponible.</p>
+    </div>
+    <br><br>
+
+    <!-- Segundo Emmet: div.caja>h4{Clase col-md-6}+p{La clase col-md-6 es una instrucción específica que le dice al navegador cómo debe comportarse un elemento cuando la pantalla alcanza un tamaño determinado.}+ol>li{col: Indica que el elemento se comportará como una columna.}+li{md: Se refiere a las pantallas "Medium" (medianas), como tablets o laptops pequeñas (desde los 768px de ancho en adelante).}+li>{6: Es el número de columnas que ocupa (1/2 de la pantalla).}^p>{Al usarla, se le dice al navegador que la columna ocupará todo el ancho disponible.}^^^br*2 -->
+    <div class="caja">
+        <h4>Clase col-md-6</h4>
+        <p>La clase col-md-6 es una instrucción específica que le dice al navegador cómo debe comportarse un elemento cuando la pantalla alcanza un tamaño determinado.</p>
+        <ol>
+            <li>col: Indica que el elemento se comportará como una columna.</li>
+            <li>md: Se refiere a las pantallas "Medium" (medianas), como tablets o laptops pequeñas (desde los 768px de ancho en adelante).</li>
+            <li>6: Es el número de columnas que ocupa (1/2 de la pantalla).</li>
+            <p>Al usarla, se le dice al navegador que la columna ocupará todo el ancho disponible.</p>
+        </ol>
+    </div>
+    <br><br>
+
+    <!-- Tercer Emmet: div.caja>h4{Clase col-md-3}+p{La clase col-md-3 es una instrucción específica que le dice al navegador cómo debe comportarse un elemento cuando la pantalla alcanza un tamaño determinado.}+ol>li{col: Indica que el elemento se comportará como una columna.}+li{md: Se refiere a las pantallas "Medium" (medianas), como tablets o laptops pequeñas (desde los 768px de ancho en adelante).}+li>{3: Es el número de columnas que ocupa (1/4 de la pantalla).}^p>{Al usarla, se le dice al navegador que la columna ocupará todo el ancho disponible.}^^^br*2 -->
+    <div class="caja">
+        <h4>Clase col-md-3</h4>
+        <p>La clase col-md-3 es una instrucción específica que le dice al navegador cómo debe comportarse un elemento cuando la pantalla alcanza un tamaño determinado.</p>
+        <ol>
+            <li>col: Indica que el elemento se comportará como una columna.</li>
+            <li>md: Se refiere a las pantallas "Medium" (medianas), como tablets o laptops pequeñas (desde los 768px de ancho en adelante).</li>
+            <li>3: Es el número de columnas que ocupa (1/4 de la pantalla).</li>
+            <p>Al usarla, se le dice al navegador que la columna ocupará todo el ancho disponible.</p>
+        </ol>
+    </div>
+    <br><br>
+
+    <!-- Cuarto Emmet: div.container>div.row>(div.columna-principal.col-12.col-md-6>{Columna Principal N° $}div.row>(div.columna-interna.col-12.col-md-3{Columna Interna N° $})*3)*2 -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="columna-principal col-12 col-md-6">
+                Columna Principal N° 1
+                <div class="row">
+                    <div class="columna-interna col-12 col-md-3">Columna Interna N° 1</div>
+                    <div class="columna-interna col-12 col-md-3">Columna Interna N° 2</div>
+                    <div class="columna-interna col-12 col-md-3">Columna Interna N° 3</div>
+                </div>
+            </div>
+            <div class="columna-principal col-12 col-md-6">
+                Columna Principal N° 2
+                <div class="row">
+                    <div class="columna-interna col-12 col-md-4">Columna Interna N° 1</div>
+                    <div class="columna-interna col-12 col-md-4">Columna Interna N° 2</div>
+                    <div class="columna-interna col-12 col-md-4">Columna Interna N° 3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Segundo link de Bootstrap, debe ir antes de terminar el body -->
+</body>
+</html>

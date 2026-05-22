@@ -1,0 +1,33 @@
+.celeste {
+    /* bgc#66FAFF+w150+h150 */
+    background-color: #66faff;
+    width: 150px;
+    height: 150px;
+}
+
+.gris {
+    background-color: #808080;
+    width: 150px;
+    height: 150px;
+}
+
+.purpura {
+    background-color: #c000ff;
+    width: 150px;
+    height: 150px;
+}
+
+.flotador-izquierdo {
+    /* fl:l */
+    float: left;
+}
+
+.flotador-derecho {
+    /* fl:r */
+    float: right;
+}
+
+.romper-flotador {
+    /* cl:b */
+    clear: both;
+}

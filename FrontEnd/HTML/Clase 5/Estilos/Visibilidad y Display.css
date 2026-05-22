@@ -1,0 +1,44 @@
+.celeste {
+    /* bgc#66FAFF+w150+h150 */
+    background-color: #66faff;
+    width: 150px;
+    height: 150px;
+}
+
+.gris {
+    /* bgc#808080+w150+h150 */
+    background-color: #808080;
+    width: 150px;
+    height: 150px;
+}
+
+.purpura {
+    /* bgc#C00FF+w150+h150 */
+    background-color: #c00ffc;
+    width: 150px;
+    height: 150px;
+}
+
+.no-visualizar {
+    /* d:n */
+    display: none;
+    /* Los elementos se ocultan y no se muestra el espacio reservado. */
+}
+
+.visualizar-en-linea {
+    /* d:i */
+    display: inline;
+    /* Los elementos se muestran en la misma línea (respetando el flujo) y no se aceptan las propiedades width, height, o márgenes verticales.*/
+}
+
+.visualizar-en-bloque {
+    /* d:b */
+    display: block;
+    /* Los elementos se muestran en líneas independientes y se aceptan las propiedades width, height, y márgenes verticales */
+}
+
+.visualizar-en-linea-bloque {
+    /* d:ib */
+    display: inline-block;
+    /* Los elementos se muestran en la misma línea (respetando el flujo) y se aceptan las propiedades width, height y márgenes verticales. */
+}

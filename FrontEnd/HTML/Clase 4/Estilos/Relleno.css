@@ -1,0 +1,25 @@
+.celeste {
+    /* bgc#66faff */
+    background-color: #66faff;
+}
+
+.gris {
+    /* bgc#808080 */
+    background-color: #808080;
+}
+
+.morado {
+    /* bgc#c000ff */
+    background-color: #c000ff;
+}
+
+.relleno {
+    /* p10 */
+    padding: 10px;
+    /* 
+    padding-top: Espacio interno arriba.
+    padding-bottom: Espacio interno abajo.
+    padding-left: Espacio interno hacia la izquierda.
+    padding-right: Espacio interno hacia la derecha 
+    */
+}

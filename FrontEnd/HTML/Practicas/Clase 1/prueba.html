@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Ejercicio 1 Operadores Hermanos</h2>
+    <!-- Parte 1 -->
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <!-- Parte 2 -->
+    <h1></h1>
+    <div></div>
+    <h3></h3>
+
+    <!-- Parte 3 -->
+    <h3></h3>
+    <blockquote></blockquote>
+    <div></div>
+    <p></p>
+
+    <!-- Parte 4 -->
+    <h1></h1>
+    <span></span>
+    <h2></h2>
+    <p></p>
+
+    <!-- Parte 5 -->
+    <div></div>
+    <h1></h1>
+    <div></div>
+    <div></div>
+    <h2></h2>
+    <div></div>
+    <h3></h3>
+    <div></div>
+    <span></span>
+    <footer></footer>
+
+    <h2>Ejercicio 1 Operadores Hijos</h2>
+    <!-- Parte 1 -->
+    <div>
+        <article>
+            <p></p>
+        </article>
+    </div>
+
+    <!-- Parte 2 -->
+    <div>
+        <article>
+            <h1><span></span></h1>
+        </article>
+    </div>
+
+    <!-- Parte 3 -->
+    <div>
+        <ul>
+            <li></li>
+            <ul>
+                <li></li>
+                <ul>
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+
+    <h2>Ejercicio 3 Operador Punto (.) y clases</h2>
+    <!-- Parte 1 -->
+    <!-- div.row+div.row -->
+    <div class="row"></div> 
+    <div class="row"></div>
+
+    <!-- Parte 2 -->
+    <!-- div.header+h1+h2+div.footer -->
+    <div class="header"></div>
+    <h1></h1>
+    <h2></h2>
+    <div class="footer"></div>
+
+    <!-- Parte 3 -->
+    <!-- div.row>h3.title -->
+    <div class="row">
+        <h3 class="title"></h3>
+    </div>
+
+    <!-- Parte 4 -->
+    <!-- div.container>div.col12>h2+p+h2>span -->
+    <div class="container">
+        <div class="col12">
+            <h2></h2>
+            <p></p>
+            <h2><span></span></h2>
+        </div>
+    </div>
+
+    <h2>Ejercicio 4 Operador # (ID)</h2>
+    <!-- Parte 1 -->
+    <!-- div#Es1+div#Es2 -->
+    <div id="Es1"></div>
+    <div id="Es2"></div>
+
+    <!-- Parte 2 -->
+    <!-- h1#Cuadro1+h2 -->
+    <h1 id="Cuadro1"></h1>
+    <h2></h2>
+
+    <!-- Parte 3 -->
+    <!-- div.row#filaId>div.titulo#mytituloId>h1#mi1Id -->
+    <div class="row" id="filaId">
+        <div class="titulo" id="mytituloId">
+            <h1 id="mi1Id"></h1>
+        </div>
+    </div>
+
+    <!-- Parte 4 -->
+    <!-- div.row#mifilaId>p.miclase#mipId+h3.TitleClass#TituloId -->
+    <div class="row" id="mifilaId">
+        <p class="miclase" id="mipId"></p>
+        <h3 class="TitleClass" id="TituloId"></h3>
+    </div>
+
+    <h2>Ejercicio 5 Introducción de Texto {}</h2>
+    <!-- Parte 1 -->
+    <!-- div>h3>p>label{Nombre:} -->
+    <div>
+        <h3>
+            <p><label for="">Nombre:</label></p>
+        </h3>
+    </div>
+
+
+    <!-- div.card>h1{Título}+p.clasetarjeta#myId{Subtítulo} -->
+    <div class="card">
+        <h1>Título</h1>
+        <p class="clasetarjeta" id="myId">Subtítulo</p>
+    </div>
+
+    <h2>En el caso de querer especificar cualquier otro atributo del elemento, se usan corchetes []</h2>
+    <!-- Parte 1 -->
+    <!-- h1>td[title="Prueba"] -->
+    <h1>
+        <td title="Prueba"></td>
+    </h1>
+
+    <!-- div.card-body[[collapse]=false] -->
+    <div class="card-body" [collapse]="false"></div>
+
+    <h2>Ejercicio 6 Operador de Multiplicar *</h2>
+    <!-- Parte 1 -->
+    <!-- div.row>div.col-md-3*6{Texto} -->
+    <div class="row">
+        <div class="col-md-3">Texto</div>
+        <div class="col-md-3">Texto</div>
+        <div class="col-md-3">Texto</div>
+        <div class="col-md-3">Texto</div>
+        <div class="col-md-3">Texto</div>
+        <div class="col-md-3">Texto</div>
+    </div>
+
+    <h2>Ejercicio 7 Operador de Enumeración $</h2>
+    <!-- Parte 1 -->
+    <!-- div*5{Espacio$} -->
+    <div>Espacio1</div>
+    <div>Espacio2</div>
+    <div>Espacio3</div>
+    <div>Espacio4</div>
+    <div>Espacio5</div>
+
+    <!-- Parte 2 -->
+    <!-- ul>li*5{$} -->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <!-- Parte 3 -->
+    <!-- div*5{Espacio$$$$} -->
+    <div>Espacio0001</div>
+    <div>Espacio0002</div>
+    <div>Espacio0003</div>
+    <div>Espacio0004</div>
+    <div>Espacio0005</div>
+
+    <!-- Parte 4 -->
+    <!-- ul>li*5{$$$$} -->
+    <ul>
+        <li>0001</li>
+        <li>0002</li>
+        <li>0003</li>
+        <li>0004</li>
+        <li>0005</li>
+    </ul>
+
+    <h2>Ejercicio 8 Operador de Subir de Nivel ^</h2>
+    <!-- Parte 1 -->
+    <!-- div>ul>li>span^^^p -->
+    <div>
+        <ul>
+            <li><span></span></li>
+        </ul>
+    </div>
+    <p></p>
+
+    <!-- Parte 2 -->
+    <!-- div+div>h1{Bloque1}^div>h2{Bloque2} -->
+    <div></div>
+    <div>
+        <h1>Bloque1</h1>
+    </div>
+    <div>
+        <h2>Bloque2</h2>
+    </div>
+
+    <h2>Ejercicio 9 Generación de Dummy Text</h2>
+    <!-- Parte 1 -->
+    <!-- div+p>Lorem5 -->
+    <div></div>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <!-- Parte 2 -->
+    <!-- div+p>Lorem10 -->
+    <div></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, impedit.</p>
+
+    <!-- Parte 3 -->
+    <!-- p>Lorem - Podemos ajustar el texto a la pantalla con Alt + Z -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut sit rerum, quidem ipsam ratione nemo iusto quis culpa possimus totam dicta doloribus? Quos exercitationem aspernatur quod iusto harum nemo sit!</p>
+
+    <!-- Parte 4 -->
+    <!-- Lorem*3 -->
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolor consectetur, ea a commodi atque aliquid suscipit minus quisquam porro expedita ipsum, consequatur explicabo necessitatibus sed aperiam repellendus inventore enim.
+    At pariatur sunt quos iusto molestiae doloremque consequatur tempore perferendis. Quas obcaecati ratione dolore magni temporibus voluptatum in, blanditiis neque minima delectus. Voluptates blanditiis voluptatem rem aspernatur praesentium voluptatum eveniet?
+    Unde esse dicta alias eos molestiae ducimus nostrum dignissimos exercitationem adipisci dolores perferendis blanditiis nam modi nobis ipsum asperiores quibusdam illum nihil cum praesentium, quos neque! Qui accusantium eius fuga.
+
+    <!-- Parte 5 -->
+    <!-- h1>Lorem5 -->
+    <h1>Lorem ipsum dolor sit amet.</h1>
+</body> 

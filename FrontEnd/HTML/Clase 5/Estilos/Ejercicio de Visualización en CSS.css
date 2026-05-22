@@ -1,0 +1,68 @@
+.purpura {
+    background-color: #c000ff;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 3px solid black;
+    margin-top: -5px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.celeste {
+    background-color: #66FAFF;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    border: 3px solid black;
+    margin-top: -5px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.gris {
+    background-color: #808080;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    border: 3px solid black;
+    margin-top: -5px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.negro {
+    background-color: #000;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 130px;
+    border: 4px solid grey;
+    margin-left: 560px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.bloque {
+    display: block;
+}
+
+.flotder {
+    float: right;
+}
+
+.flotizq {
+    float: left;
+}

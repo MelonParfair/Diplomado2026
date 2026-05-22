@@ -1,0 +1,45 @@
+.celeste {
+    /* Emmet: pos:r+bgc#66FAFF+w150+h150+d:ib */
+    position: relative;
+    background-color: #66faff;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.gris {
+    /* Emmet: pos:r+bgc#808080+w150+h150+d:ib */
+    position: relative;
+    background-color: #808080;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.purpura {
+    /* Emmet: bgc#C000FF+w150+h150+d:ib+z2 */
+    background-color: #c000ff;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    z-index: 2
+    /* Z-Index: controla el orden de apilamiento de los elementos en el eje z (la profundidad), es decir, qué elementos apareces "encima" o "delante" de otros. */
+}
+
+.contenedor {
+    height: 2000px;
+}
+
+.posicionamiento {
+    position: fixed;
+    top: 50px;
+    /* Esta propiedad define cómo posicionar al elemento seleccionado en el documento.
+    Valores: 
+    static: El elemento tiene una posición estática de acuerdo con el flujo normal de la página. Casi nunca se usa.
+
+    relative: El elemento está posicionado relativamente a su posición original y su posicionamiento no afecta la posición de los demás elementos.
+    
+    absolute: El elemento es sacado del flujo normal de la página y el CSS no crea un espacio especial para acomodarlo. Más bien flota por el documento, en el espacio de la ventana de navegación.
+    
+    fixed: Otorga posicionamiento fijo al elemento y su posicionamiento afecta la posición de los demás elementos, su posicionamiento se debe configurar en base a la ventana de navegación.*/
+}

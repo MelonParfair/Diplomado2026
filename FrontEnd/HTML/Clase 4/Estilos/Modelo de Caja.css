@@ -1,0 +1,48 @@
+.celeste {
+    /* bgc#66faff */
+    background-color: #66faff;
+    height: 100px;
+    width: 100px;   
+    margin-left: 645px;
+}
+
+.gris {
+    /* bgc#808080 */
+    background-color: #808080;
+    vertical-align: middle;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.morado {
+    /* bgc#c000ff */
+    background-color: #c000ff;
+    vertical-align: middle;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    margin-top: -16px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.negro {
+    /* bgc#000000 */
+    background-color: #000;
+    vertical-align: middle;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border: 4px solid magenta;
+}
+
+#p1 {
+    /* c#fff */
+    color: #fff;
+}

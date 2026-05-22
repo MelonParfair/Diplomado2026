@@ -1,0 +1,23 @@
+.caja {
+    /* bgc#15ab86+c#fff+ff:Arial+p20+taj+bd:s5px#000 */
+    background-color: #15ab86;
+    color: #fff;
+    font-family: Arial;
+    padding: 20px;
+    text-align: justify;
+    border: solid 5px #000;
+}
+
+.row {
+    /* Emmet: bg#739ef2 */
+    background: #739ef2;
+}
+
+.columna-propia {
+    /* bg#000+c#fff+bd3-s-gray+ta:c+p10 */
+    background: #000;
+    color: #fff;
+    border: 3px solid gray;
+    text-align: center;
+    padding: 10px;
+}

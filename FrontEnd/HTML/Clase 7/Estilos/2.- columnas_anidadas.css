@@ -1,0 +1,31 @@
+/* Primer Div  */
+.caja {
+    /* bgc#15ab86+c#fff+ff:Arial+p20+taj+bd:s5px#000*/
+    background-color: #15ab86;
+    color: #fff;
+    font-family: Arial;
+    padding: 20px;
+    text-align: justify;
+    border: solid 5px #000;
+}
+
+/* Fondo de las filas, para visualizar el espacio sobrante*/
+.row {
+    background: blueviolet;
+}
+
+.columna-principal {
+    /* bg#000+c#fff+tac+bd3-s-red */
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border: 3px solid red;
+}
+
+.columna-interna {
+    /* bg:blue+c:white+bd3-s-grey+p10 */
+    background: blue;
+    color: white;
+    border: 3px solid grey;
+    padding: 10px;
+}

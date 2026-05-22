@@ -1,0 +1,52 @@
+.head {
+    background-color: #ffaaff;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+.img {
+    background-color: #2c83f5;
+    padding: 400px;
+    text-align: center;
+}
+
+.news {
+    background-color: #b7b1b1;
+    color: black;
+    font-family: arial;
+    text-align: justify;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.testimony {
+    background-color: #590b5f;
+    color: white;
+    font-family: Arial;
+    .row{
+    margin-top: 20px;
+    height: 150px;
+    }
+    .col {
+        background-color: black;
+        text-align: center;
+        border: 3px solid grey;
+    }
+}
+
+.empresa {
+    background-color: #ede20e;
+    color: black;
+    font-family: arial;
+    .row{
+    margin-top: 20px;
+    height: 150px;
+    }
+}
+
+
+

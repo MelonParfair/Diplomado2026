@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/3- Espaciado Entre Columnas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Espaciado Entre Columnas</title>
+</head>
+<body>
+    <!-- Emmet: div.caja>p{La clase g: pertenece al sistema de Gutters (espacios entre columnas) de Bootstrap (específicamente desde la versión 5). Estas clases sirven para controlar de forma muy precisa la separación que hay entre las columnas (.col) dentro de una fila (.row).}+ul>li{g-0 Espaciado nulo: Elimina por completo el espacio entre columnas, tanto horizontal como verticalmente.}+li{gx Espaciado horizontal: Controla el espacio únicamente en los lados izquierdo y derecho de las columnas (el eje X).}+li{gy Espaciado vertical: Controla el espacio únicamente arriba y abajo de las columnas (el eje Y).}^ul>li{g-1 4x Mínimo: Un espacio muy sutil, ideal para micro diseños o listas compactas.}+li{g-2 8px Pequeño: Una separación ligera, común en cuadrículas de imágenes pequeñas.}+li{g-3 16px Por Defecto: Si no pones ninguna clase g, este es el espacio que Bootstrap aplica automáticamente.}+li{g-4 24px Grande: Una separación generosa para secciones de contenido o blogs.}+li{g-5 48px Máximo: El espacio más grande de la escala, ideal para separar elementos muy visuales.}^^^br+div.row>(div.col-6>div.columna-propia{Columna})*6 -->
+    <div class="container">
+        <div class="caja">
+        <p>La clase g: pertenece al sistema de Gutters (espacios entre columnas) de Bootstrap (específicamente desde la versión 5). Estas clases sirven para controlar de forma muy precisa la separación que hay entre las columnas (.col) dentro de una fila (.row).</p>
+        <ul>
+            <li>g-0 Espaciado nulo: Elimina por completo el espacio entre columnas, tanto horizontal como verticalmente.</li>
+            <li>gx Espaciado horizontal: Controla el espacio únicamente en los lados izquierdo y derecho de las columnas (el eje X).</li>
+            <li>gy Espaciado vertical: Controla el espacio únicamente arriba y abajo de las columnas (el eje Y).</li>
+        </ul>
+        <ul>
+            <li>g-1 4x Mínimo: Un espacio muy sutil, ideal para micro diseños o listas compactas.</li>
+            <li>g-2 8px Pequeño: Una separación ligera, común en cuadrículas de imágenes pequeñas.</li>
+            <li>g-3 16px Por Defecto: Si no pones ninguna clase g, este es el espacio que Bootstrap aplica automáticamente.</li>
+            <li>g-4 24px Grande: Una separación generosa para secciones de contenido o blogs.</li>
+            <li>g-5 48px Máximo: El espacio más grande de la escala, ideal para separar elementos muy visuales.</li>
+        </ul>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <div class="columna-propia">Columna</div>
+        </div>
+        <div class="col-6">
+            <div class="columna-propia">Columna</div>
+        </div>
+        <div class="col-6">
+            <div class="columna-propia">Columna</div>
+        </div>
+        <div class="col-6">
+            <div class="columna-propia">Columna</div>
+        </div>
+        <div class="col-6">
+            <div class="columna-propia">Columna</div>
+        </div>
+        <div class="col-6">
+            <div class="columna-propia">Columna</div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

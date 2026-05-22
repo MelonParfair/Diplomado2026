@@ -1,0 +1,21 @@
+.caja {
+    /* bgc#15ab86+c#fff+ff:Arial+p20+taj+bd:s5px#000*/
+    background-color: #15ab86;
+    color: #fff;
+    font-family: Arial;
+    padding: 20px;
+    text-align: justify;
+    border: solid 5px #000;
+}
+
+.row {
+    background: blueviolet;
+}
+
+.columna-interna {
+    /* bg:black+c:white+bd3-s-grey+p10 */
+    background: black;
+    color: white;
+    border: 3px solid grey;
+    padding: 10px;
+}
