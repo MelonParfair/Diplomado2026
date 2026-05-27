@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/css/bootstrap.min.css">
+    <title>Alertas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Alerta Verde (Éxito/Correcto) -->
+                <div class="alert alert-success" role="alert">
+                    ¡El archivo se guardó correctamente de manera local!
+                </div>
+                
+                <!-- Alerta Roja (Peligro/Error) -->
+                <div class="alert alert-danger" role="alert">
+                    <strong>Error:</strong> No hay conexión con la base de datos.
+                </div>
+
+                <!-- Alerta Amarilla (Advertencia/Aviso) -->
+                <div class="alert alert-warning" role="alert">
+                    Atención: Tu sesión va a expirar en 5 minutos.
+                </div>
+
+                <!-- Alerta Azul (Información general) -->
+                <div class="alert alert-info" role="alert">
+                    Nota: Recuerda que puedes usar los atajos de emmet para generar código.
+                </div>
+
+                <div class="alert alert-danger m-3 p-3 alert-dismissible fade show">
+                    <h3>Alerta Descartable</h3>
+                    <hr>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas beatae voluptatibus ducimus illum nisi nesciunt necessitatibus sed quis corporis.
+                    <button class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+
+                <div class="alert alert-success" role="alert">
+                    <h4 class="alert-heading fw-bold">¡Excelente Trabajo!</h4>
+                    <p>Has configurado Bootstrap local de forma correcta. Ahora tus estudiantes podrán trabajar en el laboratorio sin depender de internet.</p>
+                    <hr>
+                    <p class="mb-0">Si necesitas repasar las rutas relativas, revisa la guía del proyecto. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
